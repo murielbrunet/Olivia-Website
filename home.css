@@ -1,0 +1,51 @@
+@font-face {
+      font-family: openSansCondensed;
+      src: url(Fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
+
+/*----------- NAVBAR ----------------*/
+
+/* making the navbar button visible */
+.navbar-toggle .icon-bar { 
+    background-color: black;
+}
+
+/* center navbar links */
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+.navbar.center .navbar-inner .nav { 
+    float: none;
+    display:inline-block;
+}
+
+.nav a{
+	color: grey;
+    font-family: openSansCondensed;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+ul.nav a:hover{
+	color: black;
+	font-weight: bolder;  /*NOT WORKING*/ 
+	background-color: white !important; 
+}
+
+
+hr.line {
+	margin: 0px;
+}
+
+/*----------- CAROUSEL ----------------*/
+.carousel .carousel-control { 
+	visibility: hidden; 
+}
+.carousel:hover .carousel-control { 
+	visibility: visible; 
+	background: none;
+}
+
+.carousel .carousel-indicators {
+	visibility: hidden;
+}
