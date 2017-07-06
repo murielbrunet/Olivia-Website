@@ -1,65 +1,65 @@
 @font-face {
       font-family: openSansCondensed;
       src: url(Fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
-  }
+}
 
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  .fit { /* set relative picture size */
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .center {
-    display: block;
-    margin: auto;
-  }
+* {
+  padding: 0;
+  margin: 0;
+}
+.fit { /* set relative picture size */
+  max-width: 100%;
+  max-height: 100%;
+}
+.center {
+  display: block;
+  margin: auto;
+}
 
-  p{
-    color: white;
-    font-family: openSansCondensed;
-    text-align: center;
-    font-size: 1.25em;
-  }
+p{
+  color: white;
+  font-family: openSansCondensed;
+  text-align: center;
+  font-size: 1.25em;
+}
 
-  hr{
-    margin: 8px;
-  }
+hr{
+  margin: 8px;
+}
 
-  #name{
-    text-transform: uppercase;
-    font-size: 2em;
-  }
+#name{
+  text-transform: uppercase;
+  font-size: 2em;
+}
 
-  #cardOuter {
-      display: table;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-  }
-
-  #cardMiddle {
-      display: table-cell;
-      vertical-align: middle;
-  }
-
-  #cardInner {
-      border-style: solid;
-      border-color: white;
-      padding: 20px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      margin-left: auto;
-      margin-right: auto; 
-      width: 250px;
-      background-color: black;
-  }
-
-
-  img{
+#cardOuter {
+    display: table;
     position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  }
+    height: 100%;
+    width: 100%;
+}
+
+#cardMiddle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#cardInner {
+    border-style: solid;
+    border-color: white;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 250px;
+    background-color: black;
+}
+
+
+img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
