@@ -1,0 +1,13 @@
+@font-face {
+      font-family: openSansCondensed;
+      src: url(Fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
+
+.description {
+	text-align: left;
+}
+
+body {
+	background-color: green;
+
+}

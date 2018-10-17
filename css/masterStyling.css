@@ -1,0 +1,22 @@
+@font-face {
+      font-family: openSansCondensed;
+      src: url(Fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
+
+body {
+	padding: 5%;
+
+}
+
+.descriptionLeft {
+	text-align: left;
+}
+
+
+.descriptionRight {
+	text-align: right;
+}
+
+.modalButton {
+	size: 100%;
+}

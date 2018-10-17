@@ -1,4 +1,7 @@
-
+@font-face {
+      font-family: openSansCondensed;
+      src: url(Fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
 
 /*----------- CAROUSEL ----------------*/
 .carousel .carousel-control { 
