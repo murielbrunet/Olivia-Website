@@ -48,6 +48,7 @@
     color: black;
     font-size: 2em;
     transition: 0.3s;
+    z-index: 5; /* Sit on top */
 }
 
 .next {
@@ -57,6 +58,7 @@
     color: gray;
     font-size: 2em;
     transition: 0.3s;
+    z-index: 5; /* Sit on top */
 }
 
 .next:hover {
@@ -72,7 +74,9 @@
     color: gray;
     font-size: 2em;
     transition: 0.3s;
+    z-index: 5; /* Sit on top */
 }
+
 .previous:hover {
 	color: black;
 	cursor: pointer; /*to cover all browsers*/
