@@ -1,0 +1,88 @@
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content {
+    max-height: 90vh;
+    max-width: 90vw;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events:all;
+
+}
+
+/* The Modal (background) */
+.modal {
+    z-index: 1; /* Sit on top */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+    background-color: rgba(192,192,192,0.9); /* Black w/ opacity */
+}
+
+
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button*/
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.next {
+	position: absolute;
+    top: 50%;
+    right: 5%;
+    color: gray;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.next:hover {
+	color: black;
+	cursor: pointer; /*to cover all browsers*/
+	cursor: hand;
+}
+
+.previous {
+	position: absolute;
+    top: 50%;
+    left: 5%;
+    color: gray;
+    font-size: 2em;
+    transition: 0.3s;
+}
+.previous:hover {
+	color: black;
+	cursor: pointer; /*to cover all browsers*/
+	cursor: hand;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

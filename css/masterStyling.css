@@ -5,18 +5,59 @@
 
 body {
 	padding: 5%;
+}
+
+.intro p{
+	text-align: justify;
+	font-size: 1.25em;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+/* line divider hack */
+.divider {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 
 }
+
+.line {
+	background-color: black;
+	height: 1px;
+}
+/* end of line divider hack */
+
+
+/* images (aka work) and their descriptions */
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+
+.work {
+	cursor: pointer; /*to cover all browsers*/
+	cursor: hand;
+	max-width: 100%; /*to keep the images from overflowing*/
+	height: auto; /*to keep the images from overflowing*/
+}
+
 
 .descriptionLeft {
 	text-align: left;
 }
 
-
 .descriptionRight {
 	text-align: right;
 }
 
-.modalButton {
-	size: 100%;
-}

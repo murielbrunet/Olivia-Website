@@ -14,16 +14,21 @@
 .navbar.center .navbar-inner {
     text-align: center;
 }
+
 .navbar.center .navbar-inner .nav { 
     float: none;
     display:inline-block;
 }
 
+.navbar.center {
+        margin-bottom: 0px;
+}
+
 .nav a{
 	color: grey;
-    font-family: openSansCondensed;
-    text-transform: uppercase;
-    font-size: 1.25em;
+  font-family: openSansCondensed;
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 ul.nav a:hover{
@@ -42,4 +47,22 @@ hr.line {
 #active {
   color: black;
 
+}
+
+
+
+#pageTitle{
+  font-family: openSansCondensed;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 7%;
+}
+
+/*hide title of page when in full screen, show for small screens*/
+@media only screen and (min-width : 768px) {
+    #pageTitle{
+      visibility: hidden;
+      margin: 0px;
+      height: 0px;
+    }
 }

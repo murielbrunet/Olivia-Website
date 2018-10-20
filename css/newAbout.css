@@ -1,0 +1,36 @@
+@font-face {
+      font-family: openSansCondensed;
+      src: url(Fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
+
+#profileImg {
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.aboutDescription {
+	text-align: justify;
+}
+
+.professionalLinks a {
+	text-decoration: none;
+	color: grey;
+}
+
+.professionalLinks {
+	color: grey;
+	font-family: openSansCondensed;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.professionalLinks:hover {
+	color: black;
+	cursor: pointer; /*to cover all browsers*/
+	cursor: hand;
+	font-style: italic;
+}
+
+.professionalLinks a:hover {
+	color: black;
+}
