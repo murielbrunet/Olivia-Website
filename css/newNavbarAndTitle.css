@@ -49,13 +49,10 @@ hr.line {
 
 }
 
-
-
 #pageTitle{
   font-family: openSansCondensed;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 7%;
 }
 
 /*hide title of page when in full screen, show for small screens*/

@@ -1,12 +1,10 @@
 var currentImage;
 
 var images = {
-	"img01" : "images/textiles/silk painting.png",
-	"img02" : "images/textiles/Aizome Computer Case.jpg",
-	"img03" : "images/textiles/Woven Mat.jpg",
-	"img04" : "images/textiles/Yellow Skirt.jpg",
-	"img05" : "images/textiles/Blue Skirt.jpg",
-	"img06" : "images/textiles/Yellow Dress.jpg"
+	"img01" : "images/design/Audubon Bird.png",
+	"img02" : "images/design/morris house.png",
+	"img03" : "images/design/logos.png",
+	"img04" : "images/design/Final Chase House with Background.png"
 };
 
 
@@ -18,12 +16,11 @@ function openModal(imgID){
 
 	// Get the image and insert it inside the modal 
 	img = document.getElementById(imgID);
-
 	var modalImg = document.getElementById("modalContent");
-
-	//this is what actually displays the content
-    modal.style.display = "block";
-    modalImg.src = images[imgID];
+//	img.onclick = function(){
+	    modal.style.display = "block";
+	    modalImg.src = images[imgID];
+//	}
 
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
@@ -35,7 +32,7 @@ function openModal(imgID){
 }
 
 function previous(){
-	var images = ["img01", "img02", "img03", "img04", "img05", "img06"];
+	var images = ["img01", "img02", "img03", "img04"];
 	var index = images.indexOf(currentImage);
 	if(index - 1 < 0){
 		index = images.length - 1;
@@ -47,7 +44,7 @@ function previous(){
 }
 
 function next(){
-	var images = ["img01", "img02", "img03", "img04", "img05", "img06"];
+	var images = ["img01", "img02", "img03", "img04"];
 	var index = images.indexOf(currentImage);
 	if(index + 1 >= images.length){
 		index = 0;

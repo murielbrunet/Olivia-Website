@@ -17,24 +17,26 @@
 <body>
 
 <div class="container" >
-	<div class="row">
-			<a href="newHome.html"><img class="img-responsive" src="images/signature.png" alt="Signature"></a>
-<!-- 		<hr class="line"> -->
-	</div>
+  <div class="row hidden-xs visible-sm visible-md visible-lg">
+      <a href="newHome.html"><img class="img-responsive" src="images/signature.png" alt="Signature"></a>
+  <!--    <hr class="line"> -->
+  </div>
 
   <!--Navigation bar-->
   <div class="row">
     <nav class="navbar center">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#portfolioNavbar" >
             <!-- creates the three lines of the button "icon" -->
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
+        <a class="navbar-brand visible-xs hidden-sm hidden-md hidden-lg" href="newHome.html"><img class="img-responsive" src="images/smallSignature.png" alt="Signature" id="signature"></a>
+
       </div>
       <div class="navbar-inner">
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="portfolioNavbar">
           <ul class="nav navbar-nav">
                 <li><a href="newProgramming.html">Programming</a></li>
                 <li><a href="newDesign.html">Design</a></li>
@@ -44,11 +46,18 @@
           </ul>
           </div>
       </div>
-      </nav>
+    </nav>
   </div>
   <!--end of Navigation bar-->
+
 </div>
 
+<br>
+<br>
+
+<div class="container-fluid bg-3 text-center intro">
+  <h2 id="pageTitle">About</h2>
+</div>
 
 <!-- picture and description -->
 <div class="container-fluid bg-3 text-center"> 
@@ -58,7 +67,12 @@
       <img id="profileImg" src="images/aboutImage.jpg" class="img-responsive" style="width:100%" alt="Profile Image">
       <br>
       <br>
-      <p class="aboutDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique aliquet libero, auctor consequat purus condimentum non. Morbi enim erat, dictum ut nisi at, tincidunt efficitur ex. In ut libero sed massa tincidunt lobortis quis quis nulla. Pellentesque non purus diam. Quisque pulvinar posuere lacus, in placerat diam convallis sit amet. Nunc faucibus interdum nulla, ac porttitor orci fermentum vel. Praesent sit amet mattis sapien, eget facilisis dolor. Quisque eu turpis ligula. Nulla tortor erat, dapibus ut turpis ac, ultricies tincidunt massa. Cras magna nibh, lobortis nec congue ornare, bibendum nec nunc. Vestibulum efficitur ante ut nunc viverra sodales. Vestibulum dictum molestie magna nec accumsan. Phasellus vel massa quam. Praesent ut quam egestas, cursus nunc at, fringilla elit.</p>
+      <p class="aboutDescription">
+      I have always leaned towards the arts. As a child, I used to love to draw maps leading to hidden treasures and never failed to named art as my favorite subject in school. In high school, I took every studio art class available, while simultaenously diving into the world of theater costume. In college, I headed towards technology and programming, though never quite losing site of my dream to design. Since graduating, I have developed a serious interest in textile and fashion, dyeing and making my own clothes. Now, I hope to intergrate art and creativity into my career. Using my skills in tech to help expand and redefine what is art, I hope to use my wide range of experiences to create projects that make people re-think what they consider to be normal.
+      <br>
+      <br>
+      Born in Paris, raised in America, I have lived my life in between borders. Alongside my strong love for all things creative, I am passionate about language and culture. I have traveled to over 15 countries, living in India and Japan for extended periods of time. I currently reside in Tokyo. I have studied at least one language my whole life and I am bilingual in French and English and speak Japanese at a professional level. 
+      </p>
     </div>
     <div class="col-sm-2"></div>
   </div>

@@ -7,6 +7,12 @@ body {
 	padding: 5%;
 }
 
+a:hover{
+	font-style: italic;
+	text-decoration: none;
+}
+
+
 .intro p{
 	text-align: justify;
 	font-size: 1.25em;
@@ -30,7 +36,7 @@ body {
 /* end of line divider hack */
 
 
-/* images (aka work) and their descriptions */
+/* turn images (aka work) and their descriptions in tables and centers vertically */
 @media only screen and (min-width : 768px) {
     .is-table-row {
         display: table;
@@ -50,14 +56,6 @@ body {
 	cursor: hand;
 	max-width: 100%; /*to keep the images from overflowing*/
 	height: auto; /*to keep the images from overflowing*/
+	padding: 6%;
+	max-height: 80vh;
 }
-
-
-.descriptionLeft {
-	text-align: left;
-}
-
-.descriptionRight {
-	text-align: right;
-}
-
