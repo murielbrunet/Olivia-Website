@@ -5,7 +5,8 @@ var images = {
 	"img02" : "images/multi media/CC S'mores Night Final.png",
 	"img03" : "images/multi media/Installation 1.JPG",
 	"img04" : "images/multi media/Imaginary House.jpg",
-	"img05" : "images/multi media/Botanical Garden Flowers.jpg"	
+	"img05" : "images/multi media/Botanical Garden Flowers.jpg",	
+	"img06" : "images/multi media/Muriel Con 9.jpg"
 };
 
 
@@ -35,7 +36,7 @@ function openModal(imgID){
 }
 
 function previous(){
-	var images = ["img01", "img02", "img03", "img04", "img05"];
+	var images = ["img01", "img02", "img03", "img04", "img05", "img06"];
 	var index = images.indexOf(currentImage);
 	if(index - 1 < 0){
 		index = images.length - 1;
@@ -47,7 +48,7 @@ function previous(){
 }
 
 function next(){
-	var images = ["img01", "img02", "img03", "img04", "img05"];
+	var images = ["img01", "img02", "img03", "img04", "img05", "img06"];
 	var index = images.indexOf(currentImage);
 	if(index + 1 >= images.length){
 		index = 0;

@@ -13,6 +13,11 @@ a:hover{
 }
 
 
+#homePage{
+    float: none;
+    margin: 0 auto;
+}
+
 .intro p{
 	text-align: justify;
 	font-size: 1.25em;
@@ -48,6 +53,7 @@ a:hover{
         display: table-cell;
         vertical-align: middle;
     }
+
 }
 
 
