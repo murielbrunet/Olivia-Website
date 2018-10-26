@@ -7,6 +7,11 @@ body {
 	padding: 5%;
 }
 
+body p {
+	font-family: openSansCondensed;
+	font-size: 1.25em;
+}
+
 a:hover{
 	font-style: italic;
 	text-decoration: none;
@@ -19,9 +24,19 @@ a:hover{
 
 .intro p{
 	text-align: justify;
-	font-size: 1.25em;
 	padding-left: 7%;
 	padding-right: 7%;
+}
+
+.githubLink {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: grey;
+}
+
+.githubLink:hover{
+	font-style: italic;
+	color: black;
 }
 
 /* line divider hack */

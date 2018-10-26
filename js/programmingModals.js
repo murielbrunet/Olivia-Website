@@ -4,7 +4,8 @@ var images = {
 	"img01" : "images/programming/final project.gif",
 	"img02" : "images/programming/boater project.png",
 	"img03" : "images/programming/wooden queen.png",
-	"img04" : "images/programming/japan travel website.png"
+	"img04" : "images/programming/original portfolio.png",
+	"img05" : "images/programming/japan travel website.png"
 };
 
 
@@ -32,7 +33,7 @@ function openModal(imgID){
 }
 
 function previous(){
-	var images = ["img01", "img02", "img03", "img04"];
+	var images = ["img01", "img02", "img03", "img04", "img05"];
 	var index = images.indexOf(currentImage);
 	if(index - 1 < 0){
 		index = images.length - 1;
@@ -44,7 +45,7 @@ function previous(){
 }
 
 function next(){
-	var images = ["img01", "img02", "img03", "img04"];
+	var images = ["img01", "img02", "img03", "img04", "img05"];
 	var index = images.indexOf(currentImage);
 	if(index + 1 >= images.length){
 		index = 0;
